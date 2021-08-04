@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>contact me form
+	</title>
+</head>
+<body>
+	<form action="connect.php" method="post">
+		
+<h1> Welcome to my portfolio</h1>
+<a href="index.html">Home</a>
+<a href="interest.html"l>Interest</a>
+<a href="friendlist.html">friendlist</a>
+<a href="gallery.html">gallery</a>
+<a href="contact me.html">contact me</a>
+
+<h3>contact me </h3>
+<form>
+	<input type ="text" name ="fullname">
+	<label>full name :</label>
+	<input type="text" name="fullname" placeholder="enter fullname">
+
+	<label> password :</label>
+	<input type ="password" name ="pass">
+
+
+	<label> phone number </label>
+	<input type ="number" name ="phone" max ="10 " min ="0"placeholder="num">
+
+
+</form>
+
+<fieldset>
+	<legend> please enter your details </legend>
+	<label> fullname :</label>
+	<input type ="text" name ="fullname"><br>
+
+	<label>Phone number</label>
+	<input type ="number" name ="phone"><br>
+
+	<legend>please choose your gender</legend>
+	<input type ="radio" name ="gender"> male
+	<input type ="radio" name ="gender"> female
+	<input type ="radio" name ="gender"> other
+	<br>
+	<label>choose country:</label>
+	<select>
+		<option>Nepal</option>
+		<option>India</option>
+		<option>China</option>
+	</select> 
+	<br>
+	<label>Your interest [you can choose many items] </label>
+    <input type="checkbox" name="play"> Playing
+    <input type="checkbox" name="dance"> Dancing
+    <input type="checkbox" name="act"> Acting
+    <br>
+    
+<label>Message:</label>
+<textarea>
+ 
+</textarea>
+
+<input type="submit" name="submit">
+</fieldset>
+
+</body>
+</html>
